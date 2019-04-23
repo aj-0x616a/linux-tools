@@ -1,0 +1,8 @@
+
+Multiple file extension change.
+
+for x in *.html; do mv "$x" "${x%.html}.php"; done
+
+This script will change all files in current directory ending with html extension to
+
+php extension. (*.html to *.php), You can customize it as per your requirment.
